@@ -46,9 +46,14 @@ export function Login() {
 							bg="#edf5f3" 
 							margin="5px 0" 
 							fontSize="14px" />	
+						<Flex>
                         <Link to="/home">
-						<Button marginTop='20px' type="submit" padding="12px 0" borderRadius="20px" width="180px" fontWeight="bold" fontSize="14px" colorScheme='teal' variant='solid' cursor="pointer">Sign In</Button>
+						<Button margin='20px' type="submit"  borderRadius="20px" width="130px" fontWeight="bold" fontSize="14px" colorScheme='teal' variant='solid' cursor="pointer">Sign In</Button>
                         </Link>
+						<Link to="/home">
+						<Button margin='20px' type="submit" borderRadius="20px" width="130px" fontWeight="bold" fontSize="14px" colorScheme='teal' variant='solid' cursor="pointer">Sign Up</Button>
+                        </Link>
+						</Flex>
                     </Flex>
 				</Flex>
 		</Box>

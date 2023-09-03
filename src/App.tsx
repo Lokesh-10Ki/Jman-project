@@ -3,6 +3,7 @@ import {NotFound} from './pages/NotFound'
 import {Login} from './pages/Login'
 import {Home} from './pages/Home'
 import {Bus} from './pages/Bus'
+import {Analytics} from './pages/Analytics'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/bus/:text" element={<Bus />} />
+        <Route path="/analytics" element={<Analytics />} />
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </>
@@ -18,3 +20,4 @@ function App() {
 }
 
 export default App
+

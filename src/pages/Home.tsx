@@ -25,8 +25,7 @@ export function Home() {
         marginLeft:'70px',
     }
     return (
-            <Box 
-            >
+            <Box>
                 <Box h='120px'
                 bgGradient='linear(teal.300 0%, teal.200 50%)'
                 borderBottomRadius='50px'

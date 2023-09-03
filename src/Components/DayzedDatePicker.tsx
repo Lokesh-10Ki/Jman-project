@@ -256,6 +256,7 @@ export const SingleDatepicker: React.FC<SingleDatepickerProps> = ({
             name={name}
             value={format(date, configs.dateFormat)}
             onChange={(e) => e.target.value}
+            focusBorderColor='teal.300'
           />
           <InputRightElement color="gray.500" children={icon} />
         </InputGroup>
