@@ -28,7 +28,7 @@ export function Home() {
             <Box 
             >
                 <Box h='120px'
-                background='RGB(82 203 192)'
+                bgGradient='linear(teal.300 0%, teal.200 50%)'
                 borderBottomRadius='50px'
                 marginBottom='40px'>
                 <Center>
@@ -45,7 +45,7 @@ export function Home() {
                 </Center>
                 
                 <Center>
-                <InputGroup bgColor='white' w='50%' borderRadius='100px'>
+                <InputGroup bgColor='white' w='50%' borderRadius='100px' outline="1px solid #e2e8f0">
                     <Input pl='30px' placeholder='Enter destination or bus number' h='50px' borderRadius='100px' />
                 </InputGroup>
                 </Center>
@@ -55,30 +55,8 @@ export function Home() {
                 <Box boxShadow='md' p='6' rounded='md' bg='white' margin='20px'>
                 <Provider>
                 <Carousel gap={50}>
-                <Link to="/bus">
-                <Card sx={carousselBox}>
-                    <CardBody> 
-                        <Center>
-                        <Image
-                        src='https://www.google.com/maps/d/thumbnail?mid=15bbu4WK5buIuYzRbago0wf2FSCE&hl=en'
-                        alt='Chennai - Bangalore'
-                        borderRadius='lg'
-                        h='250px'
-                        align='center'
-                        />
-                        </Center>
-                    </CardBody>
-                    <Divider />
-                    <Center>
-                    <CardFooter >
-                    <FontAwesomeIcon icon={faBus} size="xl" color="#2c9b92"/>                        
-                    <Text pl='10px'>Chennai - Bangalore</Text>
-                    </CardFooter>
-                    </Center>
-                </Card>
-                </Link>
 
-                <Link to="/bus">
+                <Link to="/bus/Chennai - Ooty">
                 <Card sx={carousselBox}>
                     <CardBody>
                         <Center>
@@ -101,7 +79,7 @@ export function Home() {
                 </Card>
                 </Link>
 
-                <Link to="/bus">
+                <Link to="/bus/Delhi - Manali">
                 <Card sx={carousselBox}>
                     <CardBody>
                         <Center>
@@ -124,7 +102,7 @@ export function Home() {
                 </Card>
                 </Link>
 
-                <Link to="/bus">
+                <Link to="/bus/Jaipur - Udaipur">
                 <Card sx={carousselBox}>
                     <CardBody>
                         <Center>
@@ -147,7 +125,28 @@ export function Home() {
                 </Card>
                 </Link>
 
-                
+                <Link to="/bus/Chennai - Bangalore">
+                <Card sx={carousselBox}>
+                    <CardBody> 
+                        <Center>
+                        <Image
+                        src='https://www.google.com/maps/d/thumbnail?mid=15bbu4WK5buIuYzRbago0wf2FSCE&hl=en'
+                        alt='Chennai - Bangalore'
+                        borderRadius='lg'
+                        h='250px'
+                        align='center'
+                        />
+                        </Center>
+                    </CardBody>
+                    <Divider />
+                    <Center>
+                    <CardFooter >
+                    <FontAwesomeIcon icon={faBus} size="xl" color="#2c9b92"/>                        
+                    <Text pl='10px'>Chennai - Bangalore</Text>
+                    </CardFooter>
+                    </Center>
+                </Card>
+                </Link>
                 </Carousel>
                 
                 <Flex justify="space-between">

@@ -17,8 +17,13 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/date-fns": "^2.6.0",
+    "@types/dayzed": "^3.2.0",
     "chakra-ui-carousel": "^1.0.14",
+    "date-fns": "^2.30.0",
+    "dayzed": "^3.2.3",
     "framer-motion": "^10.15.2",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0"
@@ -32,6 +37,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "sass": "^1.65.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
